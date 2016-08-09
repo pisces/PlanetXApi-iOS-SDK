@@ -1,0 +1,6 @@
+framework module PlanetXApiSDK {
+  umbrella header "PlanetXApiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

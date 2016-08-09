@@ -1,0 +1,22 @@
+{
+  "name": "PlanetXApiSDK",
+  "version": "0.1.0",
+  "summary": "A short description of PlanetXApiSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PlanetXApiSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Steve Kim": "hh963103@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PlanetXApiSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PlanetXApiSDK/Classes/**/*"
+}

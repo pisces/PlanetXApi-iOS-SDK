@@ -1,0 +1,16 @@
+PODS:
+  - PlanetXApiSDK (0.1.0)
+
+DEPENDENCIES:
+  - PlanetXApiSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PlanetXApiSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PlanetXApiSDK: e542644025b78a13fdc520feba7f9c1564ecf08b
+
+PODFILE CHECKSUM: 93ca92f97be877db94a2d20e5f720adfedb6d3d2
+
+COCOAPODS: 1.0.0

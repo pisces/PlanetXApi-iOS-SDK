@@ -1,0 +1,6 @@
+framework module Pods_PlanetXApiSDK_Tests {
+  umbrella header "Pods-PlanetXApiSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

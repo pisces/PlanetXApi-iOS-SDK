@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A252435EB2885BF184092097 /* Pods_PlanetXApiSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE66901673B42AC3A5CD482 /* Pods_PlanetXApiSDK_Example.framework */; };
+		DC4D68E01D5A0D2F001A6A95 /* PlanetXApiAppCenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D68DF1D5A0D2F001A6A95 /* PlanetXApiAppCenterTest.swift */; };
 		E7A694F84D983875502B69F5 /* Pods_PlanetXApiSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6BD368054440F2277F8F4A /* Pods_PlanetXApiSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		853EB70E52491A5BAC95AB17 /* PlanetXApiSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PlanetXApiSDK.podspec; path = ../PlanetXApiSDK.podspec; sourceTree = "<group>"; };
 		9EC271A6DE2BC23B254FD106 /* Pods-PlanetXApiSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetXApiSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanetXApiSDK_Tests/Pods-PlanetXApiSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C3F40390605E0F1F55D1A131 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC4D68DF1D5A0D2F001A6A95 /* PlanetXApiAppCenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetXApiAppCenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				DC4D68DF1D5A0D2F001A6A95 /* PlanetXApiAppCenterTest.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -368,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4D68E01D5A0D2F001A6A95 /* PlanetXApiAppCenterTest.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetXApiSDK_Example.app/PlanetXApiSDK_Example";
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetXApiSDK_Example.app/PlanetXApiSDK_Example";
 			};
 			name = Release;
 		};
