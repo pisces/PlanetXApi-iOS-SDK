@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PlanetXApiSDK_Example' do
+  pod 'PlanetXApiSDK', :path => '../'
+
+  target 'PlanetXApiSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
