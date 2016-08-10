@@ -84,8 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/PSFoundation/PSFoundation.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PlanetXApiSDK/PlanetXApiSDK.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/apxml/apxml.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/w3action/w3action.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/PSFoundation/PSFoundation.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PlanetXApiSDK/PlanetXApiSDK.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/apxml/apxml.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/w3action/w3action.framework"
 fi

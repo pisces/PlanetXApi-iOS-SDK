@@ -1,5 +1,11 @@
 PODS:
-  - PlanetXApiSDK (0.1.0)
+  - apxml (1.0)
+  - PlanetXApiSDK (1.0.0):
+    - w3action
+  - PSFoundation (1.0.51)
+  - w3action (1.3.4):
+    - apxml
+    - PSFoundation
 
 DEPENDENCIES:
   - PlanetXApiSDK (from `../`)
@@ -9,7 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PlanetXApiSDK: e542644025b78a13fdc520feba7f9c1564ecf08b
+  apxml: 0930b839c8be6734f5091f8c8889b00f7d59559c
+  PlanetXApiSDK: bb66527d73767572d778e7916bc7db169373299c
+  PSFoundation: 8546e1ab994991c75427422309317f55088c5a79
+  w3action: ef0f8a85c50a280bc5cd44f3999178c70e94e8bf
 
 PODFILE CHECKSUM: 93ca92f97be877db94a2d20e5f720adfedb6d3d2
 

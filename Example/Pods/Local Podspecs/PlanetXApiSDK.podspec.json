@@ -1,22 +1,25 @@
 {
   "name": "PlanetXApiSDK",
-  "version": "0.1.0",
-  "summary": "A short description of PlanetXApiSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PlanetXApiSDK",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "1.0.0",
+  "summary": "PlanetX Api SDK.",
+  "description": "PlanetXApiSDK is open source.",
+  "homepage": "https://github.com/pisces/PlanetXApi-iOS-SDK",
+  "license": "MIT",
   "authors": {
-    "Steve Kim": "hh963103@gmail.com"
+    "pisces": "hh963103@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PlanetXApiSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pisces/PlanetXApi-iOS-SDK.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PlanetXApiSDK/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "PlanetXApiSDK/Classes/*.*",
+  "dependencies": {
+    "w3action": [
+
+    ]
+  }
 }
