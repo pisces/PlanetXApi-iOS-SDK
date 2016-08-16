@@ -67,6 +67,19 @@ class PlanetXApiAppCenter: NSObject {
         }).sessionDataTask
     }
     
+    // MARK: - Public methods
+    
+    static public func defaultCenter() -> PlanetXApiAppCenter {
+        struct Static {
+            static var onceToken: dispatch_once_t = 0
+            static var instance: PlanetXApiAppCenter? = nil
+        }
+        dispatch_once(&Static.onceToken) {
+            Static.instance = PlanetXApiAppCenter()
+        }
+        return Static.instance!
+    }
+    
     // MARK: - Private methods
     
     private func requestObjectWithPath<T: PlanetXApiParameterSet, Y: PlanetXApiResult>(path: PlanetXApiPath,
@@ -84,20 +97,5 @@ class PlanetXApiAppCenter: NSObject {
                          "timeout": (10),
                          "async": (true)]
         return object
-    }
-    
-    
-    
-    // MARK: - Public methods
-    
-    static public func defaultCenter() -> PlanetXApiAppCenter {
-        struct Static {
-            static var onceToken: dispatch_once_t = 0
-            static var instance: PlanetXApiAppCenter? = nil
-        }
-        dispatch_once(&Static.onceToken) {
-            Static.instance = PlanetXApiAppCenter()
-        }
-        return Static.instance!
     }
 }

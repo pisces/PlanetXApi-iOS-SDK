@@ -7,99 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0072D595432E516F1533DDE264C77722 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E043B63AF8A83ED83124563C094491EC /* ko.lproj */; };
-		0B3E00AFAF85A46BAFE1261FE1E01EFB /* PSFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2FC3159FCAE7C36F0A3CDCF4C663D /* PSFoundation-dummy.m */; };
-		0BD182CF3D5131BE9F36133905C8C227 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C890F3CB3E28E53350F72C44A5C9948 /* BaseObject.m */; };
+		0076D787095A84A7CBC69967674456E2 /* PlanetXApiAppCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E34BAEF0263AF3355953435C0D6A92 /* PlanetXApiAppCenter.swift */; };
 		0D7E0DEB0BD4F0A6BE280B210F7A7F5A /* apxml-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5F9521C6FFDA431899135ED6CAEE74 /* apxml-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EA3D37E1E8FBF97E702B5898C07C114 /* NSURL+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A656EF395E8F91F23CCEAEFF17B80 /* NSURL+PSFoundation.m */; };
 		0F1081C703438E174120ACDA19D1BF99 /* Pods-PlanetXApiSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C72EA0FDFDFEEE929D870B1769D7EFA /* Pods-PlanetXApiSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		109991BA8C73D12303868D4DB2E1E819 /* PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A225132F22ED5A09A19175177DA9B6 /* PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A5E205C36A20372C1759ACB37A156A /* w3action-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F5F73073B5FDB43E02EB94EE13E5 /* w3action-dummy.m */; };
+		127DCD4B5CB7306A115FFE2A78BF7004 /* w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07D54CEF0B7CC0A55EDC78B7FE808A /* w3action.m */; };
+		141F0D199E357D6163E907500BE2D9AF /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 28DB0BE0EF7B7EA0AE135681EF592FC4 /* en.lproj */; };
+		14BC5702802A3302C3EE0B52D290D693 /* NSArray+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC734DF3525F111B8CBC770BAB4326D /* NSArray+PSFoundation.m */; };
 		151D6FB93A04A6E8383A7D3BCA6914BB /* Pods-PlanetXApiSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1006F6770F32A9E9672CBA1D237ED2 /* Pods-PlanetXApiSDK_Tests-dummy.m */; };
-		17F7BBDCA0272C48CA4C879780A2467C /* NSDictionary+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 30029536BCC2DB7D76C0F69E8113FAC4 /* NSDictionary+w3action.m */; };
-		1AB9248F04461D8EE48EF60E24706506 /* PlanetXApiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189833084E3D27D08BEFF5C1A435CE12 /* PlanetXApiSDK-dummy.m */; };
-		1CFE26B9C01DCED053F9688E94335018 /* NSObject+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C467A4A9EA09553785D1734C8C007354 /* NSObject+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158CC2839DF20A4E484230654BD1AC68 /* NSURL+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A656EF395E8F91F23CCEAEFF17B80 /* NSURL+PSFoundation.m */; };
+		1697775A451157C9BDFC3F661D09AFAE /* AbstractModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E721F84EC0091EC4FED4F5B337531C /* AbstractModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A642E58B19FAEFD60B4F152DF0EDCA /* PlanetXApiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A54219E9EA23AB004E7BFDC45AECE5B /* PlanetXApiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE1EE424E21931C113FDDF9DF9EB720 /* w3action-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F5F73073B5FDB43E02EB94EE13E5 /* w3action-dummy.m */; };
+		1B8349521078A9649EC68F2DBE2C56EA /* NSFileManager+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 593E43F680C7C1DB1A1A036BC5CABB3D /* NSFileManager+PSFoundation.m */; };
+		1E0F9D4A9A4B259041837C4BBC3C86A1 /* NSURLRequest+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6784509C10320CA13751A680EC2CA4 /* NSURLRequest+PSFoundation.m */; };
+		2063020DDA4B76E9A750FD039287DFD4 /* NSURL+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F98585D8C935F2D7060944E137F17DFD /* NSURL+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		210FA2AF5485849CA44795C0F8985EB5 /* APElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2D8277291AE221F3F3D944C8EB0BBF /* APElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FB88BB7A335208D3001B42BD3662D1 /* NSURL+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F98585D8C935F2D7060944E137F17DFD /* NSURL+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280EA413C234D5C590E4E7B03A3628C1 /* DataLoadValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E72F9E8704603DC7FF0573A85E83C416 /* DataLoadValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		303DF159CB4537394FC9D5126052E71D /* HTTPActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF82006872056A43ABAC0DB253507F28 /* HTTPActionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35719720E370BC5A2CBF72E24EF6CE90 /* NSArray+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC734DF3525F111B8CBC770BAB4326D /* NSArray+PSFoundation.m */; };
+		2116CF9DC4FC38B10B6845DCE9ECA455 /* NSData+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = 8432D89400264C283F174B93F7F39E2F /* NSData+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214817628EC2424945592C09FF945A29 /* BaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D711141E30A83DE00DAA8D44D1E8DF /* BaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DD0603805978AD62C1AE0A7A6CB524 /* PSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499943D03C53BE4D0D0BA008AD6D90A0 /* PSFoundation.framework */; };
+		25C4C04592B9E025E973AF42DCF515D5 /* PSFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2FC3159FCAE7C36F0A3CDCF4C663D /* PSFoundation-dummy.m */; };
+		2B02363B0A9F9636DAB96A3CF944B631 /* ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DC109A5C8234B381236045B3AB8A95 /* ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3213451FF96386808EC1625074C5133D /* NSObject+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9DE700C3E3E47E93EDBF508619AEA0 /* NSObject+PSFoundation.m */; };
+		337D60D2A0F3E2402D2B72C084558DCC /* AbstractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21B4B8D970B9896C3EBDDD439AF0F7 /* AbstractModel.m */; };
+		3525BE1AE8C4A040D486FE9393086473 /* NSFileManager+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AEAD4E6A253E8AC709198349E49A8A /* NSFileManager+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		358AB803B4FFFF9692136ED226455FB6 /* APAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F20EADAC9927B7C6E78B57C809250A2B /* APAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3650C613484568E55E4C3EAC57CC24BD /* NSURLRequest+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6784509C10320CA13751A680EC2CA4 /* NSURLRequest+PSFoundation.m */; };
-		3EFE6D51A004057BE70DB47403771A94 /* PlanetXApiAppCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE79F43F8822B0D3E9C7BCC77C7BE43 /* PlanetXApiAppCenter.swift */; };
-		3FC1E47472E83656FDAF7DB0FC9C3173 /* BaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D711141E30A83DE00DAA8D44D1E8DF /* BaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FE645EB63DF70437274DEFA897549D /* ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DC109A5C8234B381236045B3AB8A95 /* ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		436B4DAE6B8FB1B8672F091E8632DAF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
-		480F40A33A3D74A61CF73B65DAEDB276 /* NSString+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B29933743AFB6E8299FE38CBB8C02E7 /* NSString+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4920089DA0547C19E8460D9DBE524879 /* HTTPRequestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A05F9363355AEBDD3C03D333B913B3 /* HTTPRequestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		494E7966EA47009A85059252F93D0776 /* NSBundle+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44243A80F03D960900592628B667EB55 /* NSBundle+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49A75606FC729FF5A1360DB06E506630 /* apxml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2B4133DD38C0C1EA3B2AED0EF1473 /* apxml.framework */; };
-		4AEAF4961E99CB33CF29FB405B6CA065 /* w3action-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E90B942D0AFAEFFE7E428EFA377285 /* w3action-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AF86A023A60BF4E48F0935EAA82B9AE /* NSDictionary+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = C77180FA4979E7DE252316ED377B1A22 /* NSDictionary+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CA5FECBD2FBC71A7AC06D594B4253C8 /* apxml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2B4133DD38C0C1EA3B2AED0EF1473 /* apxml.framework */; };
-		4CE4AEA0144828F751C5FD345BF741AF /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 28DB0BE0EF7B7EA0AE135681EF592FC4 /* en.lproj */; };
-		4E3C4E67835BBDF949E061B2D0713715 /* w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07D54CEF0B7CC0A55EDC78B7FE808A /* w3action.m */; };
-		4F98E7F7C9AEA2B7F4D55B2986BB96CD /* DataLoadValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153721BE3EFD3B51151FDAB5DCB132E /* DataLoadValidator.m */; };
-		517CC8879A15FC77D7EE5F84525F1564 /* NSArray+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CE4D58D9D8A75D0ADF2517FC409097 /* NSArray+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		519E6500A2D59757C9D74A95F69D1BEB /* PSFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF02D3EE84374FBB7E6F30E7438B26E2 /* PSFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCAFD2231D49C7ABF3E18F27E6B2226 /* PlanetXApiResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227B72AA8D9CBD35FA55969F1CB191D0 /* PlanetXApiResultModel.swift */; };
+		3F586C43F98C98EF24B7D8DB13F8D508 /* PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD023B4EC32FBFCF6C30D3FAE071401 /* PSFoundation.m */; };
+		487C423551E9B04CED12080DA9C58056 /* NSBundle+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44243A80F03D960900592628B667EB55 /* NSBundle+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52B1550DF6B6C4DBC861531B3EB95EFC /* APAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EE94CDFDC2F040909769B30678D9DE /* APAttribute.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		55817EA38B0513665D4C97F2A900A3E7 /* PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD023B4EC32FBFCF6C30D3FAE071401 /* PSFoundation.m */; };
-		5DDA157B35073F2367E595EB93222579 /* NSDate+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F57F05D6370D00D3272306409B1E10C /* NSDate+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FB3FEE3B93294A8CE4C9A821BDB65D9 /* NSURLRequest+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 593C709C482E9F952AB9359564489625 /* NSURLRequest+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68F90E5A7B0759215631E3789558C295 /* NSDate+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B30C660DCFA6770A81139BF08F723E /* NSDate+PSFoundation.m */; };
-		6D68A527B9D87F821892A530E9B77E57 /* NSString+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EFB21851541D142C3D2ECC3BF91611 /* NSString+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559616AD3252753304BFB49D08CA6484 /* NSData+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD599E0C5D5F42EEA1AA6F6001D36BB /* NSData+w3action.m */; };
+		567B3B41A42B8435ACFE7AEDA9A0C3F3 /* w3action-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E90B942D0AFAEFFE7E428EFA377285 /* w3action-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56BF846C8EE11646C83A6D72FB0A74DA /* NSString+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E86863BAA1384676E19C2026909555F /* NSString+w3action.m */; };
+		5D0C74F15374712889357A4AE31A5A58 /* PSFoundation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8F10C9200C6497E5D3259D62A377B96 /* PSFoundation.bundle */; };
+		5F882342382189BEABEFBDB61F7934BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
+		621780E3B0F85865857CB590307BFFA2 /* HTTPActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF82006872056A43ABAC0DB253507F28 /* HTTPActionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625EBF603DD621F98919A71BEE6F4DC9 /* PlanetXApiParameterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB89ADEFEB5DD096FC3DD579C88C40E /* PlanetXApiParameterSet.swift */; };
 		700FFE1A835FD686C8A0A7CF235DD856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
+		702DA2D5E540B6A2A3E4AD9CC48A6DE0 /* NSString+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EFB21851541D142C3D2ECC3BF91611 /* NSString+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70CC90098F2256E910321E20919A9221 /* APDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C213406D4E8B00527C9903319F9299 /* APDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73A35FEE401A52B3813146656D29BD64 /* AbstractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21B4B8D970B9896C3EBDDD439AF0F7 /* AbstractModel.m */; };
-		7611ACE311ADCA9FEE98083E4B3983DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
-		7B73BEE76963111F0047040694C62A7E /* PSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499943D03C53BE4D0D0BA008AD6D90A0 /* PSFoundation.framework */; };
-		7E57C9BB7AC66B8FE9C5DBD58D473229 /* PSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499943D03C53BE4D0D0BA008AD6D90A0 /* PSFoundation.framework */; };
+		71801DCC8D052426F6EDC7E73CA7D29B /* HTTPRequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF33A3C326D6CA71159051BEC36AA02 /* HTTPRequestObject.m */; };
+		729EB33A4D0BBD1A9CD0C23EA2E9BC67 /* apxml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2B4133DD38C0C1EA3B2AED0EF1473 /* apxml.framework */; };
+		790FACDD7E63F12D5B70E8D365BF33C0 /* HTTPRequestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A05F9363355AEBDD3C03D333B913B3 /* HTTPRequestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABB22E13DDF9C60D2BFC07ED0005AD8 /* NSArray+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CE4D58D9D8A75D0ADF2517FC409097 /* NSArray+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3174CBE9C01F18E5DE8E0D8A34FC4D /* NSObject+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C467A4A9EA09553785D1734C8C007354 /* NSObject+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83783E013576C8C8E981A04F9296BF55 /* apxml-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1DFD864B3960B7F91E61704B47C1D /* apxml-dummy.m */; };
-		917EF8844DE42142CBA902FD474EDD75 /* NSFileManager+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AEAD4E6A253E8AC709198349E49A8A /* NSFileManager+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AECAA8D175244BEBC0847BB88DF8263 /* NSString+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05B9773E09F95FB063615FB7852E57 /* NSString+PSFoundation.m */; };
+		853A7A3FAAD3A0170B649862EA081A66 /* AbstractJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6940816D74F9B8C28196E466EBE04E6 /* AbstractJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8742113E16EC2000CC51150D1B78FD53 /* NSDictionary+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 30029536BCC2DB7D76C0F69E8113FAC4 /* NSDictionary+w3action.m */; };
+		88273D01DD1B9CA2FEF5AF36999485C9 /* PlanetXApiResultCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452070242F0E7CAAC22A5C2B4A35C4A6 /* PlanetXApiResultCode.swift */; };
+		919F7FF3CF4438669D5E75A0EECCB766 /* NSDate+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B30C660DCFA6770A81139BF08F723E /* NSDate+PSFoundation.m */; };
+		92B8B80D633C04432EAF3570CCA8619A /* NSString+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05B9773E09F95FB063615FB7852E57 /* NSString+PSFoundation.m */; };
+		9339B706EC19BF789E4524C7355E9461 /* DataLoadValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153721BE3EFD3B51151FDAB5DCB132E /* DataLoadValidator.m */; };
+		9817E6525B5130779D653F099263F4C7 /* DataLoadValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E72F9E8704603DC7FF0573A85E83C416 /* DataLoadValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C3E41958ED836453F18FE31371B66E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
-		9C67A8CAEC90E6E90ED8C991FD2AC8C8 /* NSData+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = 8432D89400264C283F174B93F7F39E2F /* NSData+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1DF89C3FFF09F5CDB462897C47BCC7F /* PSFoundation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8F10C9200C6497E5D3259D62A377B96 /* PSFoundation.bundle */; };
-		A22725D3B132D73CA42C930AF98A3BD9 /* NSBundle+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF3CA8FD4F35A553C4BD7D33A6B936C /* NSBundle+PSFoundation.m */; };
-		A35D3A22573F49E40901CD170B2CF131 /* w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = A4997E500D15049299C1914AC30F6038 /* w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8F2FDA8637931675A7156E47FDF5B71 /* NSString+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E86863BAA1384676E19C2026909555F /* NSString+w3action.m */; };
+		A34AC621FAC95ADEE3A674A2A4C6390B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
+		A6CA53E9E8039C31F02401834A646130 /* w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = A4997E500D15049299C1914AC30F6038 /* w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAAF6C628CC440DB0B913FABB0C1B596 /* Pods-PlanetXApiSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1685106DC96018520E0AA7FA132B91F0 /* Pods-PlanetXApiSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACD8D633D9D7A5893EB8AD72C1BA7089 /* NSObject+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9DE700C3E3E47E93EDBF508619AEA0 /* NSObject+PSFoundation.m */; };
+		AB37E31FA29ACB604FF407CE79BF55F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C061EACBF6CB3DA6252D212F88ADAC /* CFNetwork.framework */; };
+		AD127AAC74489AC4E1F1B82FAFABCFFE /* AbstractJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E74112FD7CEB8A0ED3DB296158DEA375 /* AbstractJSONModel.m */; };
 		B8594A206A3F912D6713139D96E7CE46 /* APXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A23A39EF0C96B27E7A245458256ED3 /* APXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2426400FCAC3638AE4257A7428D8C6B /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DF62EF60221A064D198B6C300930AC /* model.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2514BE2A7079E2386604E8710A121FE /* AbstractJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E74112FD7CEB8A0ED3DB296158DEA375 /* AbstractJSONModel.m */; };
+		BCD92C34FFEFFE59124D1BE141DD1805 /* NSString+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B29933743AFB6E8299FE38CBB8C02E7 /* NSString+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED1456E31823BC7C2EE12DD2E2F8017 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E043B63AF8A83ED83124563C094491EC /* ko.lproj */; };
 		C2D107E43D3A604746093DE2BBD691B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
-		C32FD93686C8EF6D2A9BBCBCE1635CB3 /* NSData+w3action.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD599E0C5D5F42EEA1AA6F6001D36BB /* NSData+w3action.m */; };
-		C56D159F20A254021E4EFF0931866371 /* w3action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF8C78FA67FAC8F3F65C3CD28CFA20B /* w3action.framework */; };
-		C66D6BF89A3D4CF4A49787E5B2C0C915 /* PlanetXApiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A54219E9EA23AB004E7BFDC45AECE5B /* PlanetXApiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE056485ECFEECED2C54907937335934 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C061EACBF6CB3DA6252D212F88ADAC /* CFNetwork.framework */; };
-		D93DEDD837B6C1B49DD18EF9D3F3B154 /* HTTPActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46A6D8D8AA99DCAB9DE4E25B5BEF82 /* HTTPActionManager.m */; };
-		DC399A541D5AC2ED009EE538 /* PlanetXApiParameterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC399A531D5AC2ED009EE538 /* PlanetXApiParameterSet.swift */; };
-		DC399A561D5AC448009EE538 /* PlanetXApiResultCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC399A551D5AC448009EE538 /* PlanetXApiResultCode.swift */; };
-		DC399A581D5AC451009EE538 /* PlanetXApiResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC399A571D5AC451009EE538 /* PlanetXApiResultModel.swift */; };
+		CF41EAAFD16BAD499BAEEFFB67E238BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
+		D0D53FA4B872C1BC201DFE9497B472CA /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C890F3CB3E28E53350F72C44A5C9948 /* BaseObject.m */; };
+		D103C2F768D05E8E06F09A6D1600F145 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DF62EF60221A064D198B6C300930AC /* model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D713193479E7101590ABD6644EDFA6CF /* HTTPActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46A6D8D8AA99DCAB9DE4E25B5BEF82 /* HTTPActionManager.m */; };
+		D9312FE31BF7D5A85C99FB6BE5AEB8A9 /* PSFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF02D3EE84374FBB7E6F30E7438B26E2 /* PSFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE224C15DE69EF39B297B132C83B633 /* PlanetXApiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189833084E3D27D08BEFF5C1A435CE12 /* PlanetXApiSDK-dummy.m */; };
+		DD1F6D6B1983CD4CA504D60C6A1F7BE1 /* w3action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF8C78FA67FAC8F3F65C3CD28CFA20B /* w3action.framework */; };
+		E33D126D605D602E1213F6B1E1B94A4C /* NSDate+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F57F05D6370D00D3272306409B1E10C /* NSDate+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E413F366EA2165E4BEBFC8BE9DCF0406 /* NSBundle+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF3CA8FD4F35A553C4BD7D33A6B936C /* NSBundle+PSFoundation.m */; };
+		E50925C37B0ACF42BBA9846C046E0DD5 /* PSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499943D03C53BE4D0D0BA008AD6D90A0 /* PSFoundation.framework */; };
+		E5E9E50D3A95985D760B24BDB9DB2C04 /* PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A225132F22ED5A09A19175177DA9B6 /* PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6273A811D452C72C705077131C3A136 /* Pods-PlanetXApiSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC2B74878DAE9594F1BA0E4EB78D293 /* Pods-PlanetXApiSDK_Example-dummy.m */; };
-		E7F8BE8086DC5236BC2E5E52910F9F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E925E5CC394A748E2CBCFDB2765153A6 /* Foundation.framework */; };
-		E90958C3025323A3156D3775E571D7EF /* HTTPRequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF33A3C326D6CA71159051BEC36AA02 /* HTTPRequestObject.m */; };
-		EB4FD7FFEFD0A7C1095C7775B4B01B54 /* AbstractModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E721F84EC0091EC4FED4F5B337531C /* AbstractModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED79AF169FDB3B626510C8E5F3331141 /* NSFileManager+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 593E43F680C7C1DB1A1A036BC5CABB3D /* NSFileManager+PSFoundation.m */; };
-		EDA582C73384F79772D12CEA7BA29A04 /* AbstractJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6940816D74F9B8C28196E466EBE04E6 /* AbstractJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9803BB6EB051A8671766A2D2BF5299 /* NSDictionary+w3action.h in Headers */ = {isa = PBXBuildFile; fileRef = C77180FA4979E7DE252316ED377B1A22 /* NSDictionary+w3action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24FC4D4C89DBDF47BBCA59BCC4C846F /* apxml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2B4133DD38C0C1EA3B2AED0EF1473 /* apxml.framework */; };
+		F78994E67CE6DA4A00F6989A2F82D59A /* NSURLRequest+PSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 593C709C482E9F952AB9359564489625 /* NSURLRequest+PSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F79CB239C4686BC4AB8D8050972C61EA /* APDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9723FCDAA2A75D7ACDA2F9A9CCAC8E69 /* APDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FA28C80D82680975C877B3BAEE2C3982 /* APElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F87BAE2FF2A4CAB91D415A5AAD3142 /* APElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		021F79BB79757A2DF96A9B7BBF6ABDA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2CF8E1FD05431C171B07D56589F7676;
-			remoteInfo = w3action;
-		};
 		0A6D23E62CCD6FE06E38D28CF46EF06C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5E7EAAAD50A3B887CE515AAE75702C5;
+			remoteGlobalIDString = 895560B7A4A88A7532E3353007303EBA;
 			remoteInfo = PlanetXApiSDK;
 		};
 		1E707C32555B1C901A3CD82484867568 /* PBXContainerItemProxy */ = {
@@ -109,58 +102,66 @@
 			remoteGlobalIDString = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED;
 			remoteInfo = apxml;
 		};
-		32AAEF0883A1F30065AA0EFB60964AC6 /* PBXContainerItemProxy */ = {
+		372EA930432B07AE7C8DA012E61042EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBF22D9A44DC54A63B83C8F5F4C9B83D;
+			remoteGlobalIDString = 0B5680F27237AC0A3387B0EA0A4664AF;
+			remoteInfo = PSFoundation;
+		};
+		4E10B5F87CB936B8F104D94260FCAB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9359924C1595B1081BA008D5356F9F6D;
+			remoteInfo = "PSFoundation-PSFoundation";
+		};
+		7F1800F37B119BFDA7DC457F7CBD9E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5680F27237AC0A3387B0EA0A4664AF;
 			remoteInfo = PSFoundation;
 		};
 		A74B03D9107CB3C43B1F67FA08BCCE1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBF22D9A44DC54A63B83C8F5F4C9B83D;
+			remoteGlobalIDString = 0B5680F27237AC0A3387B0EA0A4664AF;
 			remoteInfo = PSFoundation;
 		};
-		B62BB5BCBD5A7B7059F1C66DEB312A8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FA055398899C22178C22DC0FB1130CE;
-			remoteInfo = "PSFoundation-PSFoundation";
-		};
-		CF40E2A6B80B967E30EEABA9E97F5099 /* PBXContainerItemProxy */ = {
+		C0F0B6C4B45D741A446E6FCCD3312D3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED;
 			remoteInfo = apxml;
 		};
-		DDC83B4970714AF2C8DCF0E13E941D82 /* PBXContainerItemProxy */ = {
+		E55C3418F392104C787FF7A5BDC4467E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBF22D9A44DC54A63B83C8F5F4C9B83D;
-			remoteInfo = PSFoundation;
-		};
-		EF4AE08AC49968FA4A06500BDE4CDA3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED;
-			remoteInfo = apxml;
+			remoteGlobalIDString = 955D53A4C3D6FB042AA18B0750B4C08F;
+			remoteInfo = w3action;
 		};
 		FB6DBF8592283F2E6A5EFB667C89D1D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2CF8E1FD05431C171B07D56589F7676;
+			remoteGlobalIDString = 955D53A4C3D6FB042AA18B0750B4C08F;
 			remoteInfo = w3action;
+		};
+		FDAEB9F8FF7D378956ADA8322DE3194C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED;
+			remoteInfo = apxml;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E34BAEF0263AF3355953435C0D6A92 /* PlanetXApiAppCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlanetXApiAppCenter.swift; sourceTree = "<group>"; };
 		07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSFoundation.xcconfig; sourceTree = "<group>"; };
 		08DF62EF60221A064D198B6C300930AC /* model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = model.h; path = PSFoundation/Classes/model.h; sourceTree = "<group>"; };
 		09F85D296C7C838ED80EC06A645497C5 /* Pods-PlanetXApiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlanetXApiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 		1685106DC96018520E0AA7FA132B91F0 /* Pods-PlanetXApiSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlanetXApiSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		189833084E3D27D08BEFF5C1A435CE12 /* PlanetXApiSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlanetXApiSDK-dummy.m"; sourceTree = "<group>"; };
 		1BEB83735FF5DB724839EA092FE4F0C6 /* Pods_PlanetXApiSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetXApiSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		227B72AA8D9CBD35FA55969F1CB191D0 /* PlanetXApiResultModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlanetXApiResultModel.swift; sourceTree = "<group>"; };
 		2557079A9730461B51AF9D2E331F2543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F5BC3FCEBDDC98D2F7F95BF03E1FBB /* Pods-PlanetXApiSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlanetXApiSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28DB0BE0EF7B7EA0AE135681EF592FC4 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = PSFoundation/Assets/en.lproj; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		41B1F5F73073B5FDB43E02EB94EE13E5 /* w3action-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "w3action-dummy.m"; sourceTree = "<group>"; };
 		43F9B43F12679D5D853DAE745764540B /* Pods_PlanetXApiSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetXApiSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44243A80F03D960900592628B667EB55 /* NSBundle+PSFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+PSFoundation.h"; path = "PSFoundation/Classes/NSBundle+PSFoundation.h"; sourceTree = "<group>"; };
+		452070242F0E7CAAC22A5C2B4A35C4A6 /* PlanetXApiResultCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlanetXApiResultCode.swift; sourceTree = "<group>"; };
 		47EE94CDFDC2F040909769B30678D9DE /* APAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APAttribute.m; sourceTree = "<group>"; };
 		499943D03C53BE4D0D0BA008AD6D90A0 /* PSFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6784509C10320CA13751A680EC2CA4 /* NSURLRequest+PSFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+PSFoundation.m"; path = "PSFoundation/Classes/NSURLRequest+PSFoundation.m"; sourceTree = "<group>"; };
@@ -201,7 +204,6 @@
 		61F87BAE2FF2A4CAB91D415A5AAD3142 /* APElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APElement.m; sourceTree = "<group>"; };
 		6953965B62885708309AA7D862B9D415 /* Pods-PlanetXApiSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlanetXApiSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6AD7A33AED1BFFE0C2DFFD8339CE0B09 /* PlanetXApiSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlanetXApiSDK-prefix.pch"; sourceTree = "<group>"; };
-		6DE79F43F8822B0D3E9C7BCC77C7BE43 /* PlanetXApiAppCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlanetXApiAppCenter.swift; sourceTree = "<group>"; };
 		6E1A656EF395E8F91F23CCEAEFF17B80 /* NSURL+PSFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+PSFoundation.m"; path = "PSFoundation/Classes/NSURL+PSFoundation.m"; sourceTree = "<group>"; };
 		76A23A39EF0C96B27E7A245458256ED3 /* APXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APXML.h; sourceTree = "<group>"; };
 		7800D72DD04D084B3E1C66DCBEF01241 /* PlanetXApiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlanetXApiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,9 +249,6 @@
 		D6B30C660DCFA6770A81139BF08F723E /* NSDate+PSFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+PSFoundation.m"; path = "PSFoundation/Classes/NSDate+PSFoundation.m"; sourceTree = "<group>"; };
 		D9B1DFD864B3960B7F91E61704B47C1D /* apxml-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "apxml-dummy.m"; sourceTree = "<group>"; };
 		DAD023B4EC32FBFCF6C30D3FAE071401 /* PSFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSFoundation.m; path = PSFoundation/Classes/PSFoundation.m; sourceTree = "<group>"; };
-		DC399A531D5AC2ED009EE538 /* PlanetXApiParameterSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetXApiParameterSet.swift; sourceTree = "<group>"; };
-		DC399A551D5AC448009EE538 /* PlanetXApiResultCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetXApiResultCode.swift; sourceTree = "<group>"; };
-		DC399A571D5AC451009EE538 /* PlanetXApiResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetXApiResultModel.swift; sourceTree = "<group>"; };
 		DED19506A8812CC25208EF25C31EF681 /* apxml.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = apxml.modulemap; sourceTree = "<group>"; };
 		E043B63AF8A83ED83124563C094491EC /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = PSFoundation/Assets/ko.lproj; sourceTree = "<group>"; };
 		E2A266614390D2F3C843D35C30CE5D3E /* Pods-PlanetXApiSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlanetXApiSDK_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -262,6 +261,7 @@
 		EBD9A80E891C3140E1CC192E853FBCCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EED1C172B3EBB6091EE89000ADCDB5F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF82006872056A43ABAC0DB253507F28 /* HTTPActionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPActionManager.h; path = w3action/Classes/HTTPActionManager.h; sourceTree = "<group>"; };
+		EFB89ADEFEB5DD096FC3DD579C88C40E /* PlanetXApiParameterSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlanetXApiParameterSet.swift; sourceTree = "<group>"; };
 		F20EADAC9927B7C6E78B57C809250A2B /* APAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAttribute.h; sourceTree = "<group>"; };
 		F5A225132F22ED5A09A19175177DA9B6 /* PSFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSFoundation.h; path = PSFoundation/Classes/PSFoundation.h; sourceTree = "<group>"; };
 		F651B935DE73D6C974B10E8EBF5CB8F9 /* Pods-PlanetXApiSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlanetXApiSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -275,24 +275,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A091136CC1E847BB9C0AA3ADA9F35A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		534DCE23992C45E57D885936FC2A8D1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49A75606FC729FF5A1360DB06E506630 /* apxml.framework in Frameworks */,
-				436B4DAE6B8FB1B8672F091E8632DAF8 /* Foundation.framework in Frameworks */,
-				7E57C9BB7AC66B8FE9C5DBD58D473229 /* PSFoundation.framework in Frameworks */,
-				C56D159F20A254021E4EFF0931866371 /* w3action.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		60C66FE9F60149AC072460CADEF4F5DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,14 +283,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8080C30CEA72C06688E29E9E0FE7B16E /* Frameworks */ = {
+		803AC43146C991B229824718D3989381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA5FECBD2FBC71A7AC06D594B4253C8 /* apxml.framework in Frameworks */,
-				CE056485ECFEECED2C54907937335934 /* CFNetwork.framework in Frameworks */,
-				E7F8BE8086DC5236BC2E5E52910F9F6D /* Foundation.framework in Frameworks */,
-				7B73BEE76963111F0047040694C62A7E /* PSFoundation.framework in Frameworks */,
+				F24FC4D4C89DBDF47BBCA59BCC4C846F /* apxml.framework in Frameworks */,
+				5F882342382189BEABEFBDB61F7934BC /* Foundation.framework in Frameworks */,
+				23DD0603805978AD62C1AE0A7A6CB524 /* PSFoundation.framework in Frameworks */,
+				DD1F6D6B1983CD4CA504D60C6A1F7BE1 /* w3action.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B044BD2C471F7C202ABE9E79B8FE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF41EAAFD16BAD499BAEEFFB67E238BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,19 +310,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC813BC68CAEFFD6EF18641E5FE578A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7611ACE311ADCA9FEE98083E4B3983DF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1DD8385FF2E59990C46726535EA1903 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2D107E43D3A604746093DE2BBD691B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43E82DBE717D155EF9BE447C631A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B637FCA677676CF9C6111F06DD6C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729EB33A4D0BBD1A9CD0C23EA2E9BC67 /* apxml.framework in Frameworks */,
+				AB37E31FA29ACB604FF407CE79BF55F4 /* CFNetwork.framework in Frameworks */,
+				A34AC621FAC95ADEE3A674A2A4C6390B /* Foundation.framework in Frameworks */,
+				E50925C37B0ACF42BBA9846C046E0DD5 /* PSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +464,17 @@
 			path = apxml;
 			sourceTree = "<group>";
 		};
+		9417B07D2E18E2E5CCCE295BB31E0281 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01E34BAEF0263AF3355953435C0D6A92 /* PlanetXApiAppCenter.swift */,
+				EFB89ADEFEB5DD096FC3DD579C88C40E /* PlanetXApiParameterSet.swift */,
+				452070242F0E7CAAC22A5C2B4A35C4A6 /* PlanetXApiResultCode.swift */,
+				227B72AA8D9CBD35FA55969F1CB191D0 /* PlanetXApiResultModel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		ABCAEBBE2C3D0BD513812BDA9808236D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,23 +485,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B0A20C6313E3EFEF7987189EB45BAD2E /* PlanetXApiSDK */ = {
+		B5B4083E365490F7C183FAF4BCF82669 /* PlanetXApiSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B399BA9DD263F13EF17EA077FE3DE447 /* Classes */,
+				9417B07D2E18E2E5CCCE295BB31E0281 /* Classes */,
 			);
 			path = PlanetXApiSDK;
-			sourceTree = "<group>";
-		};
-		B399BA9DD263F13EF17EA077FE3DE447 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6DE79F43F8822B0D3E9C7BCC77C7BE43 /* PlanetXApiAppCenter.swift */,
-				DC399A531D5AC2ED009EE538 /* PlanetXApiParameterSet.swift */,
-				DC399A551D5AC448009EE538 /* PlanetXApiResultCode.swift */,
-				DC399A571D5AC451009EE538 /* PlanetXApiResultModel.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BB629616C99299A6E0C434EC2616845B /* Frameworks */ = {
@@ -565,7 +565,7 @@
 		E3B1C32C7BDDEA84F5A3399F9AA1D85A /* PlanetXApiSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B0A20C6313E3EFEF7987189EB45BAD2E /* PlanetXApiSDK */,
+				B5B4083E365490F7C183FAF4BCF82669 /* PlanetXApiSDK */,
 				7C4F5C9F293D2331F003ADA0F37D4ACD /* Support Files */,
 			);
 			name = PlanetXApiSDK;
@@ -618,43 +618,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05A1FC058000256B36560B5D274024C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDA582C73384F79772D12CEA7BA29A04 /* AbstractJSONModel.h in Headers */,
-				EB4FD7FFEFD0A7C1095C7775B4B01B54 /* AbstractModel.h in Headers */,
-				3FC1E47472E83656FDAF7DB0FC9C3173 /* BaseObject.h in Headers */,
-				280EA413C234D5C590E4E7B03A3628C1 /* DataLoadValidator.h in Headers */,
-				40FE645EB63DF70437274DEFA897549D /* ext.h in Headers */,
-				C2426400FCAC3638AE4257A7428D8C6B /* model.h in Headers */,
-				517CC8879A15FC77D7EE5F84525F1564 /* NSArray+PSFoundation.h in Headers */,
-				494E7966EA47009A85059252F93D0776 /* NSBundle+PSFoundation.h in Headers */,
-				5DDA157B35073F2367E595EB93222579 /* NSDate+PSFoundation.h in Headers */,
-				917EF8844DE42142CBA902FD474EDD75 /* NSFileManager+PSFoundation.h in Headers */,
-				1CFE26B9C01DCED053F9688E94335018 /* NSObject+PSFoundation.h in Headers */,
-				6D68A527B9D87F821892A530E9B77E57 /* NSString+PSFoundation.h in Headers */,
-				22FB88BB7A335208D3001B42BD3662D1 /* NSURL+PSFoundation.h in Headers */,
-				5FB3FEE3B93294A8CE4C9A821BDB65D9 /* NSURLRequest+PSFoundation.h in Headers */,
-				519E6500A2D59757C9D74A95F69D1BEB /* PSFoundation-umbrella.h in Headers */,
-				109991BA8C73D12303868D4DB2E1E819 /* PSFoundation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		116A1B3DCD262EAAAE590951CE12D09D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				303DF159CB4537394FC9D5126052E71D /* HTTPActionManager.h in Headers */,
-				4920089DA0547C19E8460D9DBE524879 /* HTTPRequestObject.h in Headers */,
-				9C67A8CAEC90E6E90ED8C991FD2AC8C8 /* NSData+w3action.h in Headers */,
-				4AF86A023A60BF4E48F0935EAA82B9AE /* NSDictionary+w3action.h in Headers */,
-				480F40A33A3D74A61CF73B65DAEDB276 /* NSString+w3action.h in Headers */,
-				4AEAF4961E99CB33CF29FB405B6CA065 /* w3action-umbrella.h in Headers */,
-				A35D3A22573F49E40901CD170B2CF131 /* w3action.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1208E9F92C17927B72B754CC6B759032 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,11 +626,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A24D06B56BC76327201B2D58B5A69D2 /* Headers */ = {
+		4B3143F2C596C527EB5BADE8014E048A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C66D6BF89A3D4CF4A49787E5B2C0C915 /* PlanetXApiSDK-umbrella.h in Headers */,
+				17A642E58B19FAEFD60B4F152DF0EDCA /* PlanetXApiSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +646,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA0C799BEFBF395EDF024623D161973C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621780E3B0F85865857CB590307BFFA2 /* HTTPActionManager.h in Headers */,
+				790FACDD7E63F12D5B70E8D365BF33C0 /* HTTPRequestObject.h in Headers */,
+				2116CF9DC4FC38B10B6845DCE9ECA455 /* NSData+w3action.h in Headers */,
+				EB9803BB6EB051A8671766A2D2BF5299 /* NSDictionary+w3action.h in Headers */,
+				BCD92C34FFEFFE59124D1BE141DD1805 /* NSString+w3action.h in Headers */,
+				567B3B41A42B8435ACFE7AEDA9A0C3F3 /* w3action-umbrella.h in Headers */,
+				A6CA53E9E8039C31F02401834A646130 /* w3action.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9AF82DD355568637AC5FC41D77004FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,25 +668,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDC05B3AB2B644FEFAAC73112A8F5F9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A7A3FAAD3A0170B649862EA081A66 /* AbstractJSONModel.h in Headers */,
+				1697775A451157C9BDFC3F661D09AFAE /* AbstractModel.h in Headers */,
+				214817628EC2424945592C09FF945A29 /* BaseObject.h in Headers */,
+				9817E6525B5130779D653F099263F4C7 /* DataLoadValidator.h in Headers */,
+				2B02363B0A9F9636DAB96A3CF944B631 /* ext.h in Headers */,
+				D103C2F768D05E8E06F09A6D1600F145 /* model.h in Headers */,
+				7ABB22E13DDF9C60D2BFC07ED0005AD8 /* NSArray+PSFoundation.h in Headers */,
+				487C423551E9B04CED12080DA9C58056 /* NSBundle+PSFoundation.h in Headers */,
+				E33D126D605D602E1213F6B1E1B94A4C /* NSDate+PSFoundation.h in Headers */,
+				3525BE1AE8C4A040D486FE9393086473 /* NSFileManager+PSFoundation.h in Headers */,
+				7E3174CBE9C01F18E5DE8E0D8A34FC4D /* NSObject+PSFoundation.h in Headers */,
+				702DA2D5E540B6A2A3E4AD9CC48A6DE0 /* NSString+PSFoundation.h in Headers */,
+				2063020DDA4B76E9A750FD039287DFD4 /* NSURL+PSFoundation.h in Headers */,
+				F78994E67CE6DA4A00F6989A2F82D59A /* NSURLRequest+PSFoundation.h in Headers */,
+				D9312FE31BF7D5A85C99FB6BE5AEB8A9 /* PSFoundation-umbrella.h in Headers */,
+				E5E9E50D3A95985D760B24BDB9DB2C04 /* PSFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FA055398899C22178C22DC0FB1130CE /* PSFoundation-PSFoundation */ = {
+		0B5680F27237AC0A3387B0EA0A4664AF /* PSFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2C0EAFD0A5CB989C2FED99E2C5FA6E /* Build configuration list for PBXNativeTarget "PSFoundation-PSFoundation" */;
+			buildConfigurationList = E53DE8BF190A0FF969FF3ED37AC23A14 /* Build configuration list for PBXNativeTarget "PSFoundation" */;
 			buildPhases = (
-				C72F8D8B4B055B89BF49E44CBCDF1B2A /* Sources */,
-				2A091136CC1E847BB9C0AA3ADA9F35A4 /* Frameworks */,
-				134A532B36820C0881E4D97606FAC77F /* Resources */,
+				27AB0DD12DCC24E62DBFE294DB36B190 /* Sources */,
+				A5B044BD2C471F7C202ABE9E79B8FE2D /* Frameworks */,
+				58AFBC824FB73BAA520A60B00B4DA4A5 /* Resources */,
+				EDC05B3AB2B644FEFAAC73112A8F5F9F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8FB1DF5A93DEE93D31B49A43F3CC250F /* PBXTargetDependency */,
 			);
-			name = "PSFoundation-PSFoundation";
-			productName = "PSFoundation-PSFoundation";
-			productReference = E8F10C9200C6497E5D3259D62A377B96 /* PSFoundation.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = PSFoundation;
+			productName = PSFoundation;
+			productReference = AC4E6E6237BEF1280CEFF691302373F2 /* PSFoundation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		6B738EE4A8F657104C8EEC98D274D1B7 /* Pods-PlanetXApiSDK_Tests */ = {
 			isa = PBXNativeTarget;
@@ -749,39 +751,56 @@
 			productReference = 43F9B43F12679D5D853DAE745764540B /* Pods_PlanetXApiSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5E7EAAAD50A3B887CE515AAE75702C5 /* PlanetXApiSDK */ = {
+		895560B7A4A88A7532E3353007303EBA /* PlanetXApiSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7562AB0C00D2AD6C16F22A595B36B062 /* Build configuration list for PBXNativeTarget "PlanetXApiSDK" */;
+			buildConfigurationList = 21DFEC79524244CEC0AD94D37E917B30 /* Build configuration list for PBXNativeTarget "PlanetXApiSDK" */;
 			buildPhases = (
-				13D06F15BBA82AAF7DC0C90E6D4472CC /* Sources */,
-				534DCE23992C45E57D885936FC2A8D1A /* Frameworks */,
-				6A24D06B56BC76327201B2D58B5A69D2 /* Headers */,
+				2AB8A8C0531CF30F52BA42A251684553 /* Sources */,
+				803AC43146C991B229824718D3989381 /* Frameworks */,
+				4B3143F2C596C527EB5BADE8014E048A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCC24B7B3A3AFF4AE5EBC67DF50631A9 /* PBXTargetDependency */,
-				D8E066BA5117C477BCD2EF6EE92E44DB /* PBXTargetDependency */,
-				C991D8907F21DE1F294CEA3593F5B63A /* PBXTargetDependency */,
+				8B44E10C9DC0948B17B82D2AE714CB36 /* PBXTargetDependency */,
+				ED73A6F90CF5461632D0FCAA180098E6 /* PBXTargetDependency */,
+				B4D7209AA9BAFC978B10C8BB7DC6ADDC /* PBXTargetDependency */,
 			);
 			name = PlanetXApiSDK;
 			productName = PlanetXApiSDK;
 			productReference = 7800D72DD04D084B3E1C66DCBEF01241 /* PlanetXApiSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B2CF8E1FD05431C171B07D56589F7676 /* w3action */ = {
+		9359924C1595B1081BA008D5356F9F6D /* PSFoundation-PSFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0CC39F89737AAD00E40743657A36BC3 /* Build configuration list for PBXNativeTarget "w3action" */;
+			buildConfigurationList = 4DF890EBA59D799C3A72633AFCA338A4 /* Build configuration list for PBXNativeTarget "PSFoundation-PSFoundation" */;
 			buildPhases = (
-				961A7469A35EA4AA52122FF3A715089F /* Sources */,
-				8080C30CEA72C06688E29E9E0FE7B16E /* Frameworks */,
-				116A1B3DCD262EAAAE590951CE12D09D /* Headers */,
+				85AAB706CB0B0A9528424A036862F1CE /* Sources */,
+				EE43E82DBE717D155EF9BE447C631A3D /* Frameworks */,
+				5ACE53DCF82880732C1CDA0152F0DDCC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E222B070B95877B81C42EC0B4640FBF0 /* PBXTargetDependency */,
-				4C49E00BAC29D3F1A8ECB5B4983166E1 /* PBXTargetDependency */,
+			);
+			name = "PSFoundation-PSFoundation";
+			productName = "PSFoundation-PSFoundation";
+			productReference = E8F10C9200C6497E5D3259D62A377B96 /* PSFoundation.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		955D53A4C3D6FB042AA18B0750B4C08F /* w3action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5B4CE2E0E38196550B4EDA85DCC380 /* Build configuration list for PBXNativeTarget "w3action" */;
+			buildPhases = (
+				897DC305EF2A4A1394B808B1502BA59A /* Sources */,
+				F3B637FCA677676CF9C6111F06DD6C37 /* Frameworks */,
+				BA0C799BEFBF395EDF024623D161973C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB828386C99471BB44FA42723B0300B /* PBXTargetDependency */,
+				E5FAF177B6FDAE9525266B3A4850D9EB /* PBXTargetDependency */,
 			);
 			name = w3action;
 			productName = w3action;
@@ -803,25 +822,6 @@
 			name = apxml;
 			productName = apxml;
 			productReference = 4C59D87862C7485E486595BE5B28C0FA /* apxml.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBF22D9A44DC54A63B83C8F5F4C9B83D /* PSFoundation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63B9397E8BDF8D89D32706C2C38B050F /* Build configuration list for PBXNativeTarget "PSFoundation" */;
-			buildPhases = (
-				FEA6B7899974F0A61CFBD6B253E83ECC /* Sources */,
-				AC813BC68CAEFFD6EF18641E5FE578A3 /* Frameworks */,
-				1CAC4379705D374A80DE1CBABAADF0EF /* Resources */,
-				05A1FC058000256B36560B5D274024C0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53CD5A88F554F29DE7A0BA8A1625573E /* PBXTargetDependency */,
-			);
-			name = PSFoundation;
-			productName = PSFoundation;
-			productReference = AC4E6E6237BEF1280CEFF691302373F2 /* PSFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -846,60 +846,88 @@
 			projectRoot = "";
 			targets = (
 				E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */,
-				A5E7EAAAD50A3B887CE515AAE75702C5 /* PlanetXApiSDK */,
+				895560B7A4A88A7532E3353007303EBA /* PlanetXApiSDK */,
 				819482A70016ECDEA016C21B19D4535B /* Pods-PlanetXApiSDK_Example */,
 				6B738EE4A8F657104C8EEC98D274D1B7 /* Pods-PlanetXApiSDK_Tests */,
-				FBF22D9A44DC54A63B83C8F5F4C9B83D /* PSFoundation */,
-				0FA055398899C22178C22DC0FB1130CE /* PSFoundation-PSFoundation */,
-				B2CF8E1FD05431C171B07D56589F7676 /* w3action */,
+				0B5680F27237AC0A3387B0EA0A4664AF /* PSFoundation */,
+				9359924C1595B1081BA008D5356F9F6D /* PSFoundation-PSFoundation */,
+				955D53A4C3D6FB042AA18B0750B4C08F /* w3action */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		134A532B36820C0881E4D97606FAC77F /* Resources */ = {
+		58AFBC824FB73BAA520A60B00B4DA4A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE4AEA0144828F751C5FD345BF741AF /* en.lproj in Resources */,
-				0072D595432E516F1533DDE264C77722 /* ko.lproj in Resources */,
+				5D0C74F15374712889357A4AE31A5A58 /* PSFoundation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CAC4379705D374A80DE1CBABAADF0EF /* Resources */ = {
+		5ACE53DCF82880732C1CDA0152F0DDCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DF89C3FFF09F5CDB462897C47BCC7F /* PSFoundation.bundle in Resources */,
+				141F0D199E357D6163E907500BE2D9AF /* en.lproj in Resources */,
+				BED1456E31823BC7C2EE12DD2E2F8017 /* ko.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13D06F15BBA82AAF7DC0C90E6D4472CC /* Sources */ = {
+		27AB0DD12DCC24E62DBFE294DB36B190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC399A541D5AC2ED009EE538 /* PlanetXApiParameterSet.swift in Sources */,
-				DC399A561D5AC448009EE538 /* PlanetXApiResultCode.swift in Sources */,
-				DC399A581D5AC451009EE538 /* PlanetXApiResultModel.swift in Sources */,
-				3EFE6D51A004057BE70DB47403771A94 /* PlanetXApiAppCenter.swift in Sources */,
-				1AB9248F04461D8EE48EF60E24706506 /* PlanetXApiSDK-dummy.m in Sources */,
+				AD127AAC74489AC4E1F1B82FAFABCFFE /* AbstractJSONModel.m in Sources */,
+				337D60D2A0F3E2402D2B72C084558DCC /* AbstractModel.m in Sources */,
+				D0D53FA4B872C1BC201DFE9497B472CA /* BaseObject.m in Sources */,
+				9339B706EC19BF789E4524C7355E9461 /* DataLoadValidator.m in Sources */,
+				14BC5702802A3302C3EE0B52D290D693 /* NSArray+PSFoundation.m in Sources */,
+				E413F366EA2165E4BEBFC8BE9DCF0406 /* NSBundle+PSFoundation.m in Sources */,
+				919F7FF3CF4438669D5E75A0EECCB766 /* NSDate+PSFoundation.m in Sources */,
+				1B8349521078A9649EC68F2DBE2C56EA /* NSFileManager+PSFoundation.m in Sources */,
+				3213451FF96386808EC1625074C5133D /* NSObject+PSFoundation.m in Sources */,
+				92B8B80D633C04432EAF3570CCA8619A /* NSString+PSFoundation.m in Sources */,
+				158CC2839DF20A4E484230654BD1AC68 /* NSURL+PSFoundation.m in Sources */,
+				1E0F9D4A9A4B259041837C4BBC3C86A1 /* NSURLRequest+PSFoundation.m in Sources */,
+				25C4C04592B9E025E973AF42DCF515D5 /* PSFoundation-dummy.m in Sources */,
+				3F586C43F98C98EF24B7D8DB13F8D508 /* PSFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961A7469A35EA4AA52122FF3A715089F /* Sources */ = {
+		2AB8A8C0531CF30F52BA42A251684553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93DEDD837B6C1B49DD18EF9D3F3B154 /* HTTPActionManager.m in Sources */,
-				E90958C3025323A3156D3775E571D7EF /* HTTPRequestObject.m in Sources */,
-				C32FD93686C8EF6D2A9BBCBCE1635CB3 /* NSData+w3action.m in Sources */,
-				17F7BBDCA0272C48CA4C879780A2467C /* NSDictionary+w3action.m in Sources */,
-				A8F2FDA8637931675A7156E47FDF5B71 /* NSString+w3action.m in Sources */,
-				12A5E205C36A20372C1759ACB37A156A /* w3action-dummy.m in Sources */,
-				4E3C4E67835BBDF949E061B2D0713715 /* w3action.m in Sources */,
+				0076D787095A84A7CBC69967674456E2 /* PlanetXApiAppCenter.swift in Sources */,
+				625EBF603DD621F98919A71BEE6F4DC9 /* PlanetXApiParameterSet.swift in Sources */,
+				88273D01DD1B9CA2FEF5AF36999485C9 /* PlanetXApiResultCode.swift in Sources */,
+				3DCAFD2231D49C7ABF3E18F27E6B2226 /* PlanetXApiResultModel.swift in Sources */,
+				DAE224C15DE69EF39B297B132C83B633 /* PlanetXApiSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAB706CB0B0A9528424A036862F1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897DC305EF2A4A1394B808B1502BA59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D713193479E7101590ABD6644EDFA6CF /* HTTPActionManager.m in Sources */,
+				71801DCC8D052426F6EDC7E73CA7D29B /* HTTPRequestObject.m in Sources */,
+				559616AD3252753304BFB49D08CA6484 /* NSData+w3action.m in Sources */,
+				8742113E16EC2000CC51150D1B78FD53 /* NSDictionary+w3action.m in Sources */,
+				56BF846C8EE11646C83A6D72FB0A74DA /* NSString+w3action.m in Sources */,
+				1AE1EE424E21931C113FDDF9DF9EB720 /* w3action-dummy.m in Sources */,
+				127DCD4B5CB7306A115FFE2A78BF7004 /* w3action.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,13 +939,6 @@
 				F79CB239C4686BC4AB8D8050972C61EA /* APDocument.m in Sources */,
 				FA28C80D82680975C877B3BAEE2C3982 /* APElement.m in Sources */,
 				83783E013576C8C8E981A04F9296BF55 /* apxml-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C72F8D8B4B055B89BF49E44CBCDF1B2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,71 +958,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEA6B7899974F0A61CFBD6B253E83ECC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2514BE2A7079E2386604E8710A121FE /* AbstractJSONModel.m in Sources */,
-				73A35FEE401A52B3813146656D29BD64 /* AbstractModel.m in Sources */,
-				0BD182CF3D5131BE9F36133905C8C227 /* BaseObject.m in Sources */,
-				4F98E7F7C9AEA2B7F4D55B2986BB96CD /* DataLoadValidator.m in Sources */,
-				35719720E370BC5A2CBF72E24EF6CE90 /* NSArray+PSFoundation.m in Sources */,
-				A22725D3B132D73CA42C930AF98A3BD9 /* NSBundle+PSFoundation.m in Sources */,
-				68F90E5A7B0759215631E3789558C295 /* NSDate+PSFoundation.m in Sources */,
-				ED79AF169FDB3B626510C8E5F3331141 /* NSFileManager+PSFoundation.m in Sources */,
-				ACD8D633D9D7A5893EB8AD72C1BA7089 /* NSObject+PSFoundation.m in Sources */,
-				9AECAA8D175244BEBC0847BB88DF8263 /* NSString+PSFoundation.m in Sources */,
-				0EA3D37E1E8FBF97E702B5898C07C114 /* NSURL+PSFoundation.m in Sources */,
-				3650C613484568E55E4C3EAC57CC24BD /* NSURLRequest+PSFoundation.m in Sources */,
-				0B3E00AFAF85A46BAFE1261FE1E01EFB /* PSFoundation-dummy.m in Sources */,
-				55817EA38B0513665D4C97F2A900A3E7 /* PSFoundation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		4B6F2D68941DAE7EF0414EBADCC5A86A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PlanetXApiSDK;
-			target = A5E7EAAAD50A3B887CE515AAE75702C5 /* PlanetXApiSDK */;
+			target = 895560B7A4A88A7532E3353007303EBA /* PlanetXApiSDK */;
 			targetProxy = 0A6D23E62CCD6FE06E38D28CF46EF06C /* PBXContainerItemProxy */;
-		};
-		4C49E00BAC29D3F1A8ECB5B4983166E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = apxml;
-			target = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */;
-			targetProxy = EF4AE08AC49968FA4A06500BDE4CDA3E /* PBXContainerItemProxy */;
-		};
-		53CD5A88F554F29DE7A0BA8A1625573E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PSFoundation-PSFoundation";
-			target = 0FA055398899C22178C22DC0FB1130CE /* PSFoundation-PSFoundation */;
-			targetProxy = B62BB5BCBD5A7B7059F1C66DEB312A8F /* PBXContainerItemProxy */;
 		};
 		66FACDA81FCB7EF039379B4A018432E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = w3action;
-			target = B2CF8E1FD05431C171B07D56589F7676 /* w3action */;
+			target = 955D53A4C3D6FB042AA18B0750B4C08F /* w3action */;
 			targetProxy = FB6DBF8592283F2E6A5EFB667C89D1D0 /* PBXContainerItemProxy */;
 		};
-		C991D8907F21DE1F294CEA3593F5B63A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = w3action;
-			target = B2CF8E1FD05431C171B07D56589F7676 /* w3action */;
-			targetProxy = 021F79BB79757A2DF96A9B7BBF6ABDA9 /* PBXContainerItemProxy */;
-		};
-		D8E066BA5117C477BCD2EF6EE92E44DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = apxml;
-			target = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */;
-			targetProxy = CF40E2A6B80B967E30EEABA9E97F5099 /* PBXContainerItemProxy */;
-		};
-		E222B070B95877B81C42EC0B4640FBF0 /* PBXTargetDependency */ = {
+		8B44E10C9DC0948B17B82D2AE714CB36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PSFoundation;
-			target = FBF22D9A44DC54A63B83C8F5F4C9B83D /* PSFoundation */;
-			targetProxy = 32AAEF0883A1F30065AA0EFB60964AC6 /* PBXContainerItemProxy */;
+			target = 0B5680F27237AC0A3387B0EA0A4664AF /* PSFoundation */;
+			targetProxy = 7F1800F37B119BFDA7DC457F7CBD9E51 /* PBXContainerItemProxy */;
+		};
+		8FB1DF5A93DEE93D31B49A43F3CC250F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PSFoundation-PSFoundation";
+			target = 9359924C1595B1081BA008D5356F9F6D /* PSFoundation-PSFoundation */;
+			targetProxy = 4E10B5F87CB936B8F104D94260FCAB72 /* PBXContainerItemProxy */;
+		};
+		B4D7209AA9BAFC978B10C8BB7DC6ADDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = w3action;
+			target = 955D53A4C3D6FB042AA18B0750B4C08F /* w3action */;
+			targetProxy = E55C3418F392104C787FF7A5BDC4467E /* PBXContainerItemProxy */;
+		};
+		CFB828386C99471BB44FA42723B0300B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSFoundation;
+			target = 0B5680F27237AC0A3387B0EA0A4664AF /* PSFoundation */;
+			targetProxy = 372EA930432B07AE7C8DA012E61042EA /* PBXContainerItemProxy */;
 		};
 		E3496444F9ADEB6B6D392B0DB6E3FDCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1009,22 +1003,194 @@
 			target = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */;
 			targetProxy = 1E707C32555B1C901A3CD82484867568 /* PBXContainerItemProxy */;
 		};
+		E5FAF177B6FDAE9525266B3A4850D9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = apxml;
+			target = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */;
+			targetProxy = FDAEB9F8FF7D378956ADA8322DE3194C /* PBXContainerItemProxy */;
+		};
 		E6AD0855A17E4D5F35A26D3328FCF3A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PSFoundation;
-			target = FBF22D9A44DC54A63B83C8F5F4C9B83D /* PSFoundation */;
+			target = 0B5680F27237AC0A3387B0EA0A4664AF /* PSFoundation */;
 			targetProxy = A74B03D9107CB3C43B1F67FA08BCCE1B /* PBXContainerItemProxy */;
 		};
-		FCC24B7B3A3AFF4AE5EBC67DF50631A9 /* PBXTargetDependency */ = {
+		ED73A6F90CF5461632D0FCAA180098E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PSFoundation;
-			target = FBF22D9A44DC54A63B83C8F5F4C9B83D /* PSFoundation */;
-			targetProxy = DDC83B4970714AF2C8DCF0E13E941D82 /* PBXContainerItemProxy */;
+			name = apxml;
+			target = E27FA0BFB9BE3AFBC6FD6D888F8CD0ED /* apxml */;
+			targetProxy = C0F0B6C4B45D741A446E6FCCD3312D3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		069237F7E9175570F819078EB2288723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSFoundation/PSFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSFoundation/PSFoundation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PSFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		080ACEF998B649544CD70BA41703BD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9463EB11DE165E983BAF26F9EA8EA22 /* w3action.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/w3action/w3action-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/w3action/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/w3action/w3action.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = w3action;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DA5C2F7496128D9D9C82102366B97C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F85D296C7C838ED80EC06A645497C5 /* Pods-PlanetXApiSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Pods-PlanetXApiSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PlanetXApiSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2588EA364419D831347938453F4F6DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		469613B7154FBA86CD462381C772B669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3EEB2891DF55EBB463369736BA8A34 /* Pods-PlanetXApiSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Pods-PlanetXApiSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PlanetXApiSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61AD4929AC3440F8BFA0595E8DCD90C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1055,14 +1221,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0BD8F0AE2885EAEA3C2F284B1D00BB84 /* Debug */ = {
+		6AAECAF45BA302FE176E04902F85C98E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F651B935DE73D6C974B10E8EBF5CB8F9 /* Pods-PlanetXApiSDK_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1077,7 +1243,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Pods-PlanetXApiSDK_Tests.modulemap";
@@ -1095,224 +1261,7 @@
 			};
 			name = Debug;
 		};
-		146B7FF37954C90F9703FC91F71BCC26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PSFoundation/PSFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PSFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PSFoundation/PSFoundation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PSFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		192D4ADED2ADB9866631F5FB96CD442E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PSFoundation";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/PSFoundation/ResourceBundle-PSFoundation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = PSFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		2A19FD0C0048EB85B1F41526187C4FA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB3EEB2891DF55EBB463369736BA8A34 /* Pods-PlanetXApiSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Tests/Pods-PlanetXApiSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PlanetXApiSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		384F9EEAF83FDD6D8E278A0FEDDDB20B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PSFoundation";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/PSFoundation/ResourceBundle-PSFoundation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = PSFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3D399FE11173E0D440351DA3A81C3429 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09F85D296C7C838ED80EC06A645497C5 /* Pods-PlanetXApiSDK_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Pods-PlanetXApiSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PlanetXApiSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D2FE07766B5C47AD584E8BE75F33A63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9463EB11DE165E983BAF26F9EA8EA22 /* w3action.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/w3action/w3action-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/w3action/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/w3action/w3action.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = w3action;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5CC90EEBE1383C78ACCCE8AD510E11D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9463EB11DE165E983BAF26F9EA8EA22 /* w3action.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/w3action/w3action-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/w3action/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/w3action/w3action.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = w3action;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63733D9E7D430E784C7EB0806527A23D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9392E627583F3661C6F510B26ED57A35 /* PlanetXApiSDK.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PlanetXApiSDK/PlanetXApiSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PlanetXApiSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PlanetXApiSDK/PlanetXApiSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PlanetXApiSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E7A60E4F8DC6F225645A9681CAC1DE4 /* Debug */ = {
+		79B9CCEBEDD27575C5856C675909346F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27F5BC3FCEBDDC98D2F7F95BF03E1FBB /* Pods-PlanetXApiSDK_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1327,7 +1276,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PlanetXApiSDK_Example/Pods-PlanetXApiSDK_Example.modulemap";
@@ -1343,6 +1292,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC072DE7B8EC06B8760208F92B5A978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PSFoundation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PSFoundation/ResourceBundle-PSFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PSFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1367,6 +1333,64 @@
 				MODULEMAP_FILE = "Target Support Files/apxml/apxml.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = apxml;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B0AD7283EDFD385D5D4166781A1879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9463EB11DE165E983BAF26F9EA8EA22 /* w3action.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/w3action/w3action-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/w3action/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/w3action/w3action.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = w3action;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6E9DEAEEEEB61569CF56AE6171265BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSFoundation/PSFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSFoundation/PSFoundation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PSFoundation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1404,78 +1428,7 @@
 			};
 			name = Release;
 		};
-		CC5162BF7299ABFA70C1BFB80BA31B50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PSFoundation/PSFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PSFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PSFoundation/PSFoundation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PSFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		DAF125ECBF0C780C7BCADD3B09C1F206 /* Release */ = {
+		BAC1A4C971340A4258AF019FAC60D1D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9392E627583F3661C6F510B26ED57A35 /* PlanetXApiSDK.xcconfig */;
 			buildSettings = {
@@ -1504,14 +1457,79 @@
 			};
 			name = Release;
 		};
+		E7A0F46BC69FE51FDDACDF93419697E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F549652245FDE53B8CC436CD44C533 /* PSFoundation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PSFoundation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PSFoundation/ResourceBundle-PSFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PSFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F97FEB152EE8E76786544ABA6B2A0CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9392E627583F3661C6F510B26ED57A35 /* PlanetXApiSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PlanetXApiSDK/PlanetXApiSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlanetXApiSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PlanetXApiSDK/PlanetXApiSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PlanetXApiSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C5B4CE2E0E38196550B4EDA85DCC380 /* Build configuration list for PBXNativeTarget "w3action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080ACEF998B649544CD70BA41703BD36 /* Debug */,
+				9B0AD7283EDFD385D5D4166781A1879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DFEC79524244CEC0AD94D37E917B30 /* Build configuration list for PBXNativeTarget "PlanetXApiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97FEB152EE8E76786544ABA6B2A0CB4 /* Debug */,
+				BAC1A4C971340A4258AF019FAC60D1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27BC26493E27E4A6B1AEB018467E717D /* Build configuration list for PBXNativeTarget "Pods-PlanetXApiSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E7A60E4F8DC6F225645A9681CAC1DE4 /* Debug */,
-				3D399FE11173E0D440351DA3A81C3429 /* Release */,
+				79B9CCEBEDD27575C5856C675909346F /* Debug */,
+				0DA5C2F7496128D9D9C82102366B97C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1519,8 +1537,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				2588EA364419D831347938453F4F6DE5 /* Debug */,
+				61AD4929AC3440F8BFA0595E8DCD90C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF890EBA59D799C3A72633AFCA338A4 /* Build configuration list for PBXNativeTarget "PSFoundation-PSFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC072DE7B8EC06B8760208F92B5A978 /* Debug */,
+				E7A0F46BC69FE51FDDACDF93419697E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1534,47 +1561,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2C0EAFD0A5CB989C2FED99E2C5FA6E /* Build configuration list for PBXNativeTarget "PSFoundation-PSFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				384F9EEAF83FDD6D8E278A0FEDDDB20B /* Debug */,
-				192D4ADED2ADB9866631F5FB96CD442E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63B9397E8BDF8D89D32706C2C38B050F /* Build configuration list for PBXNativeTarget "PSFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC5162BF7299ABFA70C1BFB80BA31B50 /* Debug */,
-				146B7FF37954C90F9703FC91F71BCC26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7562AB0C00D2AD6C16F22A595B36B062 /* Build configuration list for PBXNativeTarget "PlanetXApiSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63733D9E7D430E784C7EB0806527A23D /* Debug */,
-				DAF125ECBF0C780C7BCADD3B09C1F206 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		85B655A0CFDDBDE9155E2205EB693288 /* Build configuration list for PBXNativeTarget "Pods-PlanetXApiSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BD8F0AE2885EAEA3C2F284B1D00BB84 /* Debug */,
-				2A19FD0C0048EB85B1F41526187C4FA4 /* Release */,
+				6AAECAF45BA302FE176E04902F85C98E /* Debug */,
+				469613B7154FBA86CD462381C772B669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0CC39F89737AAD00E40743657A36BC3 /* Build configuration list for PBXNativeTarget "w3action" */ = {
+		E53DE8BF190A0FF969FF3ED37AC23A14 /* Build configuration list for PBXNativeTarget "PSFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CC90EEBE1383C78ACCCE8AD510E11D5 /* Debug */,
-				4D2FE07766B5C47AD584E8BE75F33A63 /* Release */,
+				A6E9DEAEEEEB61569CF56AE6171265BA /* Debug */,
+				069237F7E9175570F819078EB2288723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
