@@ -15,7 +15,7 @@ public enum PlanetXApiPath: String {
     tmapRoutesPedestrian = "tmap/routes/pedestrian"
 }
 
-class PlanetXApiAppCenter: NSObject {
+public class PlanetXApiAppCenter: NSObject {
     
     // MARK: - Constant
     
