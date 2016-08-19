@@ -26,7 +26,16 @@ public class PlanetXApiResult: AbstractJSONModel {
                 super.setProperties(object)
                 
                 if let object = object {
-                    features = self.childWithKey("features", classType: PlanetXApiModel.Feature.self) as? [PlanetXApiModel.Feature]
+                    var i = 0
+                    
+                    features = self.childWithKey("features", classType: PlanetXApiModel.Feature.self, map: { (object: AbstractModel!) in
+                        let feature = object as! PlanetXApiModel.Feature
+                        if let type = feature.geometry?.type {
+                            if type == PlanetXApiModel.GeometryType.Point.rawValue {
+                                feature.propertiesObject?.seq = ++i
+                            }
+                        }
+                    }) as? [PlanetXApiModel.Feature]
                 }
             }
         }
@@ -80,6 +89,7 @@ public class PlanetXApiModel {
                 if let geometry = geometry {
                     if geometry.type! == GeometryType.Point.rawValue {
                         propertiesObject = self.childWithKey("properties", classType: PointProperties.self) as? PointProperties
+                        
                     } else if geometry.type! == GeometryType.Line.rawValue {
                         propertiesObject = self.childWithKey("properties", classType: LineProperties.self) as? LineProperties
                     }
@@ -143,6 +153,7 @@ public class PlanetXApiModel {
     public class Properties: AbstractJSONModel {
         public private(set) var index: Int = 0
         public private(set) var facilityType: Int = 0
+        public private(set) var seq: Int = 0
         public private(set) var descriptions: String?
         public private(set) var facilityName: String?
         public private(set) var name: String?
