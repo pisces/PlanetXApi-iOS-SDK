@@ -19,24 +19,38 @@ public class PlanetXApiResult: AbstractJSONModel {
     }
     
     public class tmap {
-        public class RoutesPedestrian: PlanetXApiResult {
+        public class FeatureResult: PlanetXApiResult {
             public var features: [PlanetXApiModel.Feature]?
             
+            internal func createFeatures<T: PlanetXApiModel.Feature>(object: AnyObject?) -> [T]? {
+                if object == nil {
+                    return nil
+                }
+                
+                var i = 0
+                return self.childWithKey("features", classType: T.self, map: { (object: AbstractModel!) in
+                    let feature = object as! PlanetXApiModel.Feature
+                    if let type = feature.geometry?.type {
+                        if type == PlanetXApiModel.GeometryType.Point.rawValue {
+                            feature.propertiesObject?.seq = ++i
+                        }
+                    }
+                }) as? [T]
+            }
+        }
+        public class Routes: FeatureResult {
             override public func setProperties(object: AnyObject?) {
                 super.setProperties(object)
                 
-                if let object = object {
-                    var i = 0
-                    
-                    features = self.childWithKey("features", classType: PlanetXApiModel.Feature.self, map: { (object: AbstractModel!) in
-                        let feature = object as! PlanetXApiModel.Feature
-                        if let type = feature.geometry?.type {
-                            if type == PlanetXApiModel.GeometryType.Point.rawValue {
-                                feature.propertiesObject?.seq = ++i
-                            }
-                        }
-                    }) as? [PlanetXApiModel.Feature]
-                }
+                features = createFeatures(object) as [PlanetXApiModel.CarFeature]?
+            }
+        }
+        
+        public class RoutesPedestrian: FeatureResult {
+            override public func setProperties(object: AnyObject?) {
+                super.setProperties(object)
+                
+                features = createFeatures(object) as [PlanetXApiModel.WalkFeature]?
             }
         }
     }
@@ -87,12 +101,7 @@ public class PlanetXApiModel {
                 geometry = self.childWithKey("geometry", classType: Geometry.self) as? Geometry
                 
                 if let geometry = geometry {
-                    if geometry.type! == GeometryType.Point.rawValue {
-                        propertiesObject = self.childWithKey("properties", classType: PointProperties.self) as? PointProperties
-                        
-                    } else if geometry.type! == GeometryType.Line.rawValue {
-                        propertiesObject = self.childWithKey("properties", classType: LineProperties.self) as? LineProperties
-                    }
+                    setPropertiesObjectBy(geometryType: geometry.type)
                 }
             }
         }
@@ -102,6 +111,29 @@ public class PlanetXApiModel {
         }
         
         override public func setProperties(object: AnyObject?) {
+        }
+        
+        internal func setPropertiesObjectBy(geometryType aType: String?) {
+        }
+    }
+    
+    public class CarFeature: Feature {
+        override internal func setPropertiesObjectBy(geometryType aType: String?) {
+            if aType == GeometryType.Point.rawValue {
+                propertiesObject = self.childWithKey("properties", classType: WalkPointProperties.self) as? CarPointProperties
+            } else if aType == GeometryType.Line.rawValue {
+                propertiesObject = self.childWithKey("properties", classType: WalkLineProperties.self) as? CarLineProperties
+            }
+        }
+    }
+    
+    public class WalkFeature: Feature {
+        override internal func setPropertiesObjectBy(geometryType aType: String?) {
+            if aType == GeometryType.Point.rawValue {
+                propertiesObject = self.childWithKey("properties", classType: WalkPointProperties.self) as? WalkPointProperties
+            } else if aType == GeometryType.Line.rawValue {
+                propertiesObject = self.childWithKey("properties", classType: WalkLineProperties.self) as? WalkLineProperties
+            }
         }
     }
     
@@ -167,7 +199,20 @@ public class PlanetXApiModel {
         }
     }
     
-    public class LineProperties: Properties {
+    public class CarLineProperties: Properties {
+        public private(set) var lineIndex: Int = 0
+        public private(set) var roadType: Int = 0
+        public private(set) var time: Int = 0
+    }
+    
+    public class CarPointProperties: Properties {
+        public private(set) var pointIndex: Int = 0
+        public private(set) var turnType: Int = 0
+        public private(set) var nextRoadName: String?
+        public private(set) var pointType: String?
+    }
+    
+    public class WalkLineProperties: Properties {
         public private(set) var pointIndex: Int = 0
         public private(set) var totalDistance: Int = 0
         public private(set) var totalTime: Int = 0
@@ -180,7 +225,7 @@ public class PlanetXApiModel {
         public private(set) var pointType: String?
     }
     
-    public class PointProperties: Properties {
+    public class WalkPointProperties: Properties {
         public private(set) var categoryRoadType: Int = 0
         public private(set) var distance: Int = 0
         public private(set) var lineIndex: Int = 0

@@ -12,6 +12,7 @@ import w3action
 
 public enum PlanetXApiPath: String {
     case
+    tmapRoutes = "tmap/routes",
     tmapRoutesPedestrian = "tmap/routes/pedestrian"
 }
 

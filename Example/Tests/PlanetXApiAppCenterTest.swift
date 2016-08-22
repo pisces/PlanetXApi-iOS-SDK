@@ -49,4 +49,25 @@ class PlanetXApiAppCenterTest: XCTestCase {
         waitForExpectationsWithTimeout(10) { error in
         }
     }
+    
+    func testCallRoutes() {
+        let expectation = expectationWithDescription("testCallRoutes")
+        
+        let param = PlanetXApiParameterSet.tmap.Routes()
+        param.startX = 127.010245
+        param.startY = 37.489199
+        param.endX = 127.1022888
+        param.endY = 37.6019593
+        param.startName = "서울시 서초구 반포대로 22길 19-8"
+        param.endName = "서울시 중랑구 망우동 343-9"
+        
+        PlanetXApiAppCenter.defaultCenter().call(path: PlanetXApiPath.tmapRoutes, params: param) { (result: PlanetXApiResult.tmap.RoutesPedestrian?, error) in
+            XCTAssertNotNil(result)
+            XCTAssertNil(error)
+            expectation.fulfill()
+        }
+        
+        waitForExpectationsWithTimeout(10) { error in
+        }
+    }
 }
