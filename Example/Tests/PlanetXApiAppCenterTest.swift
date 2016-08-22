@@ -61,7 +61,7 @@ class PlanetXApiAppCenterTest: XCTestCase {
         param.startName = "서울시 서초구 반포대로 22길 19-8"
         param.endName = "서울시 중랑구 망우동 343-9"
         
-        PlanetXApiAppCenter.defaultCenter().call(path: PlanetXApiPath.tmapRoutes, params: param) { (result: PlanetXApiResult.tmap.RoutesPedestrian?, error) in
+        PlanetXApiAppCenter.defaultCenter().call(path: PlanetXApiPath.tmapRoutes, params: param) { (result: PlanetXApiResult.tmap.Routes?, error) in
             XCTAssertNotNil(result)
             XCTAssertNil(error)
             expectation.fulfill()

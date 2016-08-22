@@ -21,6 +21,7 @@ public class PlanetXApiResult: AbstractJSONModel {
     public class tmap {
         public class FeatureResult: PlanetXApiResult {
             public var features: [PlanetXApiModel.Feature]?
+            public var pointFeatures: [PlanetXApiModel.Feature] = []
             
             internal func createFeatures<T: PlanetXApiModel.Feature>(object: AnyObject?) -> [T]? {
                 if object == nil {
@@ -33,6 +34,7 @@ public class PlanetXApiResult: AbstractJSONModel {
                     if let type = feature.geometry?.type {
                         if type == PlanetXApiModel.GeometryType.Point.rawValue {
                             feature.propertiesObject?.seq = ++i
+                            self.pointFeatures.append(feature)
                         }
                     }
                 }) as? [T]
@@ -184,10 +186,8 @@ public class PlanetXApiModel {
     
     public class Properties: AbstractJSONModel {
         public private(set) var index: Int = 0
-        public private(set) var facilityType: Int = 0
         public private(set) var seq: Int = 0
         public private(set) var descriptions: String?
-        public private(set) var facilityName: String?
         public private(set) var name: String?
         
         override public func setProperties(object: AnyObject?) {
@@ -200,6 +200,8 @@ public class PlanetXApiModel {
     }
     
     public class CarLineProperties: Properties {
+        public private(set) var distance: Int = 0
+        public private(set) var facilityType: Int = 0
         public private(set) var lineIndex: Int = 0
         public private(set) var roadType: Int = 0
         public private(set) var time: Int = 0
@@ -210,9 +212,26 @@ public class PlanetXApiModel {
         public private(set) var turnType: Int = 0
         public private(set) var nextRoadName: String?
         public private(set) var pointType: String?
+        
+        override func setProperties(object: AnyObject?) {
+            super.setProperties(object)
+            
+            print("CarPointProperties", object)
+        }
     }
     
     public class WalkLineProperties: Properties {
+        public private(set) var categoryRoadType: Int = 0
+        public private(set) var distance: Int = 0
+        public private(set) var facilityType: Int = 0
+        public private(set) var lineIndex: Int = 0
+        public private(set) var roadType: Int = 0
+        public private(set) var time: Int = 0
+        public private(set) var facilityName: String?
+    }
+    
+    public class WalkPointProperties: Properties {
+        public private(set) var facilityType: Int = 0
         public private(set) var pointIndex: Int = 0
         public private(set) var totalDistance: Int = 0
         public private(set) var totalTime: Int = 0
@@ -220,16 +239,9 @@ public class PlanetXApiModel {
         public private(set) var nearPoiX: Double = 0
         public private(set) var nearPoiY: Double = 0
         public private(set) var direction: String?
+        public private(set) var facilityName: String?
         public private(set) var intersectionName: String?
         public private(set) var nearPoiName: String?
         public private(set) var pointType: String?
-    }
-    
-    public class WalkPointProperties: Properties {
-        public private(set) var categoryRoadType: Int = 0
-        public private(set) var distance: Int = 0
-        public private(set) var lineIndex: Int = 0
-        public private(set) var roadType: Int = 0
-        public private(set) var time: Int = 0
     }
 }
