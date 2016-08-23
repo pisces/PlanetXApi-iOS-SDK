@@ -122,9 +122,9 @@ public class PlanetXApiModel {
     public class CarFeature: Feature {
         override internal func setPropertiesObjectBy(geometryType aType: String?) {
             if aType == GeometryType.Point.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: WalkPointProperties.self) as? CarPointProperties
+                propertiesObject = self.childWithKey("properties", classType: CarPointProperties.self) as? CarPointProperties
             } else if aType == GeometryType.Line.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: WalkLineProperties.self) as? CarLineProperties
+                propertiesObject = self.childWithKey("properties", classType: CarLineProperties.self) as? CarLineProperties
             }
         }
     }
@@ -187,14 +187,14 @@ public class PlanetXApiModel {
     public class Properties: AbstractJSONModel {
         public private(set) var index: Int = 0
         public private(set) var seq: Int = 0
-        public private(set) var descriptions: String?
+        public private(set) var desc: String?
         public private(set) var name: String?
         
         override public func setProperties(object: AnyObject?) {
             super.setProperties(object)
             
             if let object = object {
-                descriptions = object["description"] as? String
+                desc = object["description"] as? String
             }
         }
     }
@@ -209,15 +209,13 @@ public class PlanetXApiModel {
     
     public class CarPointProperties: Properties {
         public private(set) var pointIndex: Int = 0
+        public private(set) var taxiFare: Int = 0 // Won
+        public private(set) var totalDistance: Int = 0
+        public private(set) var totalFare: Int = 0 // Won
+        public private(set) var totalTime: Int = 0 // Sec
         public private(set) var turnType: Int = 0
         public private(set) var nextRoadName: String?
         public private(set) var pointType: String?
-        
-        override func setProperties(object: AnyObject?) {
-            super.setProperties(object)
-            
-            print("CarPointProperties", object)
-        }
     }
     
     public class WalkLineProperties: Properties {
