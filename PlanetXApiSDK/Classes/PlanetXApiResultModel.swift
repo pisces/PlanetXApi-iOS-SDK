@@ -33,7 +33,7 @@ public class PlanetXApiResult: AbstractJSONModel {
                     let feature = object as! PlanetXApiModel.Feature
                     if let type = feature.geometry?.type {
                         if type == PlanetXApiModel.GeometryType.Point.rawValue {
-                            feature.propertiesObject?.seq = ++i
+                            feature.property?.seq = ++i
                             self.pointFeatures.append(feature)
                         }
                     }
@@ -87,7 +87,14 @@ public class PlanetXApiModel {
         private var _sourceObject: [NSObject : AnyObject]?
         public private(set) var type: String?
         public private(set) var geometry: Geometry?
-        public private(set) var propertiesObject: Properties?
+        public private(set) var property: Properties?
+        
+        internal var propertyKey: String {
+            if let object = self.sourceObject {
+                return object["property"] != nil ? "property" : "properties"
+            }
+            return "properties"
+        }
         
         required public init?(coder aDecoder: NSCoder) {
             super.init(coder: aDecoder)
@@ -121,20 +128,26 @@ public class PlanetXApiModel {
     
     public class CarFeature: Feature {
         override internal func setPropertiesObjectBy(geometryType aType: String?) {
+            let key = propertyKey
+            
             if aType == GeometryType.Point.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: CarPointProperties.self) as? CarPointProperties
+                property = self.childWithKey(key, classType: CarPointProperties.self) as? CarPointProperties
             } else if aType == GeometryType.Line.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: CarLineProperties.self) as? CarLineProperties
+                property = self.childWithKey(key, classType: CarLineProperties.self) as? CarLineProperties
             }
         }
     }
     
     public class WalkFeature: Feature {
         override internal func setPropertiesObjectBy(geometryType aType: String?) {
+            let key = propertyKey
+            
             if aType == GeometryType.Point.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: WalkPointProperties.self) as? WalkPointProperties
+                property = self.childWithKey(key, classType: WalkPointProperties.self) as? WalkPointProperties
+            
+            
             } else if aType == GeometryType.Line.rawValue {
-                propertiesObject = self.childWithKey("properties", classType: WalkLineProperties.self) as? WalkLineProperties
+                property = self.childWithKey(key, classType: WalkLineProperties.self) as? WalkLineProperties
             }
         }
     }
@@ -190,11 +203,25 @@ public class PlanetXApiModel {
         public private(set) var desc: String?
         public private(set) var name: String?
         
+        override init() {
+            super.init()
+        }
+        
+        override init!(object: AnyObject!) {
+            super.init(object: object, encode: true)
+        }
+        
+        required public init?(coder aDecoder: NSCoder) {
+            super.init(coder: aDecoder)
+        }
+        
         override public func setProperties(object: AnyObject?) {
             super.setProperties(object)
             
             if let object = object {
-                desc = object["description"] as? String
+                if self.desc == nil {
+                    self.desc = self.format(object["description"], forKey: "description") as? String
+                }
             }
         }
     }
