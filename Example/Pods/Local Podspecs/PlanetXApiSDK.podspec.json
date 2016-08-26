@@ -13,7 +13,7 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.2"
   },
   "requires_arc": true,
   "source_files": "PlanetXApiSDK/Classes/*.*",

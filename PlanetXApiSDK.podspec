@@ -27,7 +27,10 @@ Pod::Spec.new do |s|
   version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.2'
+  s.dependency 'PSFoundation'
+  s.dependency 'w3action'
+
+  s.ios.deployment_target = '7.0'
   s.requires_arc = true
   s.source_files = 'PlanetXApiSDK/Classes/*.*'
 
